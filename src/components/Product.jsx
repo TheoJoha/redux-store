@@ -1,6 +1,6 @@
 import { useDispatch } from "react-redux"
 import { increaseAmount, decreaseAmount, removeItem } from "../features/basketSlice"
-const Product = ({ name, price, image, amount }) => {
+const Product = ({ name, price, image, amount, total }) => {
     const dispatch = useDispatch()
     return (
         <div clasName="flex flex-row items-center gap-8
