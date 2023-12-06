@@ -1,10 +1,10 @@
-import logo from './logo.svg';
-import './App.css';
+import BasketProducts from "./components/BasketProducts"
 
 function App() {
   return (
     <>
-      <h1>Redux Store</h1>
+      <h1 className="text-center text-3xl font-medium mt-2 py-4">Redux Store</h1>
+      <BasketProducts />
     </>
   );
 }
