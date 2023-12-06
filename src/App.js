@@ -6,7 +6,7 @@ import {useEffect} from "react"
 
 const App = () => {
   const {products} = useSelector((store) => store.basket)
-  const dispatch = useDispatch
+  const dispatch = useDispatch()
 
   useEffect(() => {
     dispatch(updateTotal())

@@ -3,7 +3,7 @@ import { increaseAmount, decreaseAmount, removeItem } from "../features/basketSl
 const Product = ({ name, price, image, amount, total }) => {
     const dispatch = useDispatch()
     return (
-        <div clasName="flex flex-row items-center gap-8
+        <div className="flex flex-row items-center gap-8
         px-10">
             <img src={image} alt={name + "glasses"} className="w-40" />
             <div className="w-1/2 px-10">
